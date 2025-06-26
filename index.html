@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Karthikeyan G | Developer Portfolio</title>
+  <style>
+    :root {
+      --primary: #0ea5e9;
+      --bg: #0f172a;
+      --surface: #1e293b;
+      --text: #f1f5f9;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    nav {
+      background-color: var(--surface);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+    }
+
+    nav h1 {
+      font-size: 1.8rem;
+      color: var(--primary);
+    }
+
+    nav ul {
+      display: flex;
+      gap: 1.5rem;
+      list-style: none;
+    }
+
+    nav ul li a {
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: var(--primary);
+    }
+
+    .hero {
+      text-align: center;
+      padding: 4rem 2rem;
+      background: linear-gradient(145deg, #0ea5e9, #3b82f6);
+      color: #fff;
+    }
+
+    .hero img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #fff;
+      margin-bottom: 1rem;
+    }
+
+    .hero h2 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+    }
+
+    section {
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2.section-title {
+      font-size: 2.2rem;
+      margin-bottom: 1.5rem;
+      color: var(--primary);
+    }
+
+    ul.skills {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 1rem;
+      list-style: none;
+    }
+
+    .card {
+      background-color: var(--surface);
+      padding: 1.5rem;
+      border-radius: 10px;
+      margin-bottom: 1.5rem;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .contact a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background-color: var(--surface);
+      color: #94a3b8;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <h1>Karthikeyan G</h1>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <img src="profile.jpg" alt="Karthikeyan G Photo" />
+    <h2>I'm Karthikeyan</h2>
+    <p>A passionate developer eager to build amazing solutions using React.js, JavaScript, HTML, and CSS.</p>
+  </section>
+
+  <section id="about">
+    <h2 class="section-title">About Me</h2>
+    <p>I’m a self-motivated, highly passionate, and hardworking fresher looking for an opportunity to work in a challenging organization where I can utilize my skills and knowledge to contribute to the company’s growth and build my career.</p>
+  </section>
+
+  <section id="skills">
+    <h2 class="section-title">Skills</h2>
+    <ul class="skills">
+      <li>React.js</li>
+      <li>JavaScript</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Java</li>
+      <li>SQL</li>
+      <li>Visual Studio Code</li>
+      <li>Eclipse</li>
+      <li>Quick Learner</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="card">
+      <strong>Quiz Generation System</strong>
+      <p>A dynamic web-based app to create, manage, and evaluate quizzes. Includes user registration, quiz customization, and result tracking.</p>
+      <p><em>Tech Stack:</em> HTML, CSS, Java, Servlets, MySQL</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2 class="section-title">Contact</h2>
+    <p>Email: <a href="mailto:karthirajesh555@gmail.com">karthirajesh555@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/karthikeyan-g-790ab1206">linkedin.com/in/karthikeyan-g-790ab1206</a></p>
+    <p>Phone: +91 9600928702</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Karthikeyan G. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
