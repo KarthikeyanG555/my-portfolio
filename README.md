@@ -8,15 +8,11 @@ Built using only **HTML + CSS**, it's clean, fast, and fully responsive.
 
 ## 🚀 Live Demo
 
-🌐 [Click here to view the portfolio](https://your-username.github.io/simple-portfolio)
+🌐 [Click here to view the portfolio](https://karthikeyang555.github.io/my-portfolio/)
 
 ---
 
-## 📸 Preview
 
-![Portfolio Screenshot](profile.jpg)
-
----
 
 ## 📌 About Me
 
